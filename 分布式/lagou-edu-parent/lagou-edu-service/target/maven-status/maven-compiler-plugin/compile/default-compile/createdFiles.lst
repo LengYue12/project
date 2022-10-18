@@ -1,0 +1,8 @@
+com\lagou\comment\service\CourseCommentService.class
+com\lagou\comment\service\impl\CourseCommentServiceImpl.class
+com\lagou\course\service\CourseService.class
+com\lagou\user\service\UserService.class
+com\lagou\course\service\impl\CourseServiceImpl.class
+com\lagou\order\service\impl\OrderServiceImpl.class
+com\lagou\order\service\OrderService.class
+com\lagou\user\service\impl\UserServiceImpl.class

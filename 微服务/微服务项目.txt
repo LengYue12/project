@@ -1,0 +1,9 @@
+教育网站分布式架构项目的重构
+
+微服务项目教育网站
+
+服务注册中心从分布式架构所用的Zookeeper换成了Spring Cloud 技术栈中的Eureka
+服务调用方式从分布式架构所用的基于RPC远程调用过程的Dubbo换成了Spring cloud 技术栈中基于RESTfull 轻量级通信机制
+
+
+

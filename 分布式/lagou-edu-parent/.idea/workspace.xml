@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="72447805-f6db-42c1-9879-89f16651e161" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/lagou-edu-dao/target/lagou-edu-dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lagou-edu-dao/target/lagou-edu-dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lagou-edu-dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lagou-edu-dao/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lagou-edu-entity/target/lagou-edu-entity-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lagou-edu-entity/target/lagou-edu-entity-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lagou-edu-entity/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lagou-edu-entity/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lagou-edu-service/target/lagou-edu-service-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/lagou-edu-service/target/lagou-edu-service-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lagou-edu-service/target/lagou-edu-service-1.0-SNAPSHOT/WEB-INF/lib/lagou-edu-dao-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lagou-edu-service/target/lagou-edu-service-1.0-SNAPSHOT/WEB-INF/lib/lagou-edu-entity-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lagou-edu-service/target/lagou-edu-service-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lagou-edu-service/target/lagou-edu-service-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lagou-edu-service/target/lagou-edu-service-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lagou-edu-service/target/lagou-edu-service-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lagou-edu-service/target/lagou-edu-service-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.0.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lagou-edu-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/lagou-edu-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lagou-edu-service/target/tomcat/logs/access_log.2022-09-17" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lagou-edu-web/target/lagou-edu-web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../lagou-edu-web/target/lagou-edu-web-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lagou-edu-web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../lagou-edu-web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lagou-edu-web/target/tomcat/logs/access_log.2022-09-13" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lagou-edu-web/target/tomcat/logs/access_log.2022-09-17" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\software\repository" />
+        <option name="mavenHome" value="D:/software/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\software\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2EiK102Y45qPCnfBnLTmxteo21B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lagou-edu-web/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72447805-f6db-42c1-9879-89f16651e161" name="默认更改列表" comment="" />
+      <created>1663072745384</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663072745384</updated>
+      <workItem from="1663072747216" duration="2206000" />
+      <workItem from="1663409577836" duration="754000" />
+      <workItem from="1663591622494" duration="117000" />
+      <workItem from="1665747619109" duration="2646000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="501" y="212" key="FileChooserDialogImpl" timestamp="1665747644369">
+      <screen x="0" y="0" width="1440" height="912" />
+    </state>
+    <state x="501" y="212" key="FileChooserDialogImpl/0.0.1440.912@0.0.1440.912" timestamp="1665747644369" />
+    <state width="1397" height="404" key="GridCell.Tab.0.bottom" timestamp="1665751847750">
+      <screen x="0" y="0" width="1440" height="912" />
+    </state>
+    <state width="1397" height="404" key="GridCell.Tab.0.bottom/0.0.1440.912@0.0.1440.912" timestamp="1665751847750" />
+    <state width="1397" height="404" key="GridCell.Tab.0.center" timestamp="1665751847750">
+      <screen x="0" y="0" width="1440" height="912" />
+    </state>
+    <state width="1397" height="404" key="GridCell.Tab.0.center/0.0.1440.912@0.0.1440.912" timestamp="1665751847750" />
+    <state width="1397" height="404" key="GridCell.Tab.0.left" timestamp="1665751847750">
+      <screen x="0" y="0" width="1440" height="912" />
+    </state>
+    <state width="1397" height="404" key="GridCell.Tab.0.left/0.0.1440.912@0.0.1440.912" timestamp="1665751847750" />
+    <state width="1397" height="404" key="GridCell.Tab.0.right" timestamp="1665751847750">
+      <screen x="0" y="0" width="1440" height="912" />
+    </state>
+    <state width="1397" height="404" key="GridCell.Tab.0.right/0.0.1440.912@0.0.1440.912" timestamp="1665751847750" />
+    <state x="222" y="99" key="SettingsEditor" timestamp="1663409611467">
+      <screen x="0" y="0" width="1440" height="912" />
+    </state>
+    <state x="222" y="99" key="SettingsEditor/0.0.1440.912@0.0.1440.912" timestamp="1663409611467" />
+  </component>
+</project>

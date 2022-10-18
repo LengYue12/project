@@ -1,0 +1,51 @@
+server:
+  port: 8007
+spring:
+  application:
+    name: edu-order-boot
+  rabbitmq:
+    host: 192.168.200.141
+    port: 5672
+    username: lengyue
+    password: 123456
+    virtual-host: /lagou
+    queue: order_queue
+  shardingsphere:
+    datasource:
+      names: ds0   #\u914D\u7F6E\u5E93\u7684\u540D\u5B57\uFF0C\u968F\u610F
+      ds0:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driverClassName: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://192.168.200.141:3306/edu_order?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+        username: LengYue
+        password: LengYue@520
+    sharding:
+      tables:
+        user_course_order:   # \u6307\u5B9Auser_course_order\u8868\u7684\u6570\u636E\u5206\u5E03\u60C5\u51B5\uFF0C\u914D\u7F6E\u6570\u636E\u8282\u70B9
+          actualDataNodes: ds0.user_course_order_$->{0..2}
+          tableStrategy:
+            inline:   # \u6307\u5B9Auser_course_order\u8868\u7684\u5206\u7247\u7B56\u7565\uFF0C\u5206\u7247\u7B56\u7565\u5305\u62EC\u5206\u7247\u952E\u548C\u5206\u7247\u7B97\u6CD5
+              shardingColumn: id
+              algorithmExpression: user_course_order_$->{id % 3}
+          keyGenerator:   # \u6307\u5B9Auser_course_order\u8868\u7684\u4E3B\u952E\u751F\u6210\u7B56\u7565\u4E3ASNOWFLAKE
+            type: SNOWFLAKE  #\u4E3B\u952E\u751F\u6210\u7B56\u7565\u4E3ASNOWFLAKE
+            column: id  #\u6307\u5B9A\u4E3B\u952E
+  props:
+    sql:
+      show: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}
+
+ali:
+  sms:
+    signName: \u5927\u4F6C\u5B59
+    templateCode: SMS_177536068
+    assessKeyId: LTAI4FwKDkeZ6StZvRxg5RDf
+    assessKeySecret: 09IMDRUia2uIC7HMXpSmM5CiXuUgvf

@@ -1,0 +1,24 @@
+server:
+  port: 9966
+spring:
+  application:
+    name: edu-config-boot
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/LengYue12/repo.git  #配置git服务地址
+          username: LengYue12 #配置git用户名
+          password: zs.2020jiayou #配置git密码
+          search-paths:
+            - repo  #仓库名
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ip-address}:${server.port}

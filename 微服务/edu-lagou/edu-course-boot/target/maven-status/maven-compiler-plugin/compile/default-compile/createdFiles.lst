@@ -1,0 +1,13 @@
+com\lagou\entity\CourseLessonDTO.class
+com\lagou\EduCourseBootApplication.class
+com\lagou\entity\Course.class
+com\lagou\mapper\TeacherMapper.class
+com\lagou\entity\CourseSection.class
+com\lagou\entity\ActivityCourse.class
+com\lagou\mapper\CourseMapper.class
+com\lagou\mapper\MediaMapper.class
+com\lagou\remote\OrderRemoteService.class
+com\lagou\mapper\SectionMapper.class
+com\lagou\entity\CourseMedia.class
+com\lagou\mapper\LessonMapper.class
+com\lagou\service\impl\CourseServiceImpl.class

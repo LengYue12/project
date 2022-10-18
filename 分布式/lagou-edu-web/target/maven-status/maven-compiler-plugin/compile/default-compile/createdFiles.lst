@@ -1,0 +1,13 @@
+commons\PayConfig.class
+entity\Token.class
+com\lagou\course\service\CourseService.class
+com\lagou\user\controller\WxPayController.class
+com\lagou\user\controller\UserController.class
+com\lagou\user\service\UserService.class
+com\lagou\order\service\OrderService.class
+entity\WxUser.class
+com\lagou\comment\service\CourseCommentService.class
+commons\HttpClientUtil.class
+com\lagou\order\controller\OrderController.class
+com\lagou\course\controller\CourseController.class
+com\lagou\comment\controller\CourseCommentController.class

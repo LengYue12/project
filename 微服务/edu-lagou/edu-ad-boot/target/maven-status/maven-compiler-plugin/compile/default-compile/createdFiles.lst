@@ -1,0 +1,6 @@
+com\lagou\EduAdBootApplication.class
+com\lagou\mapper\AdDao.class
+com\lagou\service\AdService.class
+com\lagou\service\impl\AdServiceImpl.class
+com\lagou\controller\AdController.class
+com\lagou\entity\PromotionAd.class
